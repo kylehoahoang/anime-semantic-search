@@ -14,6 +14,9 @@ Clean dataset with good semantic capabilities for your task.
 
 A computer with python and pip: run this for pip after installing python `python -m pip install --upgrade pip`
 
+May need to create a virtual environment try this:
+`python3 -m venv path/to/venv
+    source path/to/venv/bin/activate`
 
 ## Dev Notes
 
@@ -32,7 +35,7 @@ chromadb
 3. In app.py import your dependencies ![alt text](image.png)
 4. Create a streamlit page and add a title to the streamlit page.
 5. Create a variable csv_path to store the path to the dataset.
-6. Run `pip install -r requirements` and `streamlit run app.py` to see what we just made. ![alt text](image-3.png)
+6. Run `pip install -r requirements.txt` and `streamlit run app.py` to see what we just made. ![alt text](image-3.png)
 7. Create load_csv function ![alt text](image-2.png)
 8. Create try except block to use the load_csv function and display the columns read in streamlit ![alt text](image-1.png)
 9. Run `streamlit run app.py` to see changes ![alt text](image-4.png)
