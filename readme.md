@@ -44,7 +44,7 @@ chromadb
 12. Run `streamlit run app.py` to see changes ![alt text](image-6.png)
 13. Create functions to get the transformer to embed our text into vectors and to create a chromadb vector database
 14. Create function to build the vector database using sentence transformers from our dataset ![alt text](image-8.png)
-15. 
+15. Finish the try block ![alt text](<Screenshot 2026-03-16 at 1.12.02 PM.png>)
 
 ## Improvements to Recommendation Quality (Ideas for Next Iterations)
 
