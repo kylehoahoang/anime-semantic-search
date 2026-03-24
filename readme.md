@@ -32,19 +32,19 @@ pandas
 sentence-transformers
 chromadb
 2. Create a folder called data and place your dataset .csv file into it.
-3. In app.py import your dependencies ![alt text](image.png)
+3. In app.py import your dependencies ![alt text](./images/image.png)
 4. Create a streamlit page and add a title to the streamlit page.
 5. Create a variable csv_path to store the path to the dataset.
-6. Run `pip install -r requirements.txt` and `streamlit run app.py` to see what we just made. ![alt text](image-3.png)
-7. Create load_csv function ![alt text](image-2.png)
-8. Create try except block to use the load_csv function and display the columns read in streamlit ![alt text](image-1.png)
-9. Run `streamlit run app.py` to see changes ![alt text](image-4.png)
-10. Create normalize_columns function to prep the dataframe for the transformer ![alt text](image-5.png)
-11. Add to try block another dataframe that will store the normalized values and display it in streamlit ![alt text](image-7.png)
-12. Run `streamlit run app.py` to see changes ![alt text](image-6.png)
+6. Run `pip install -r requirements.txt` and `streamlit run app.py` to see what we just made. ![alt text](./images/image-3.png)
+7. Create load_csv function ![alt text](./images/image-2.png)
+8. Create try except block to use the load_csv function and display the columns read in streamlit ![alt text](./images/image-1.png)
+9. Run `streamlit run app.py` to see changes ![alt text](./images/image-4.png)
+10. Create normalize_columns function to prep the dataframe for the transformer ![alt text](./images/image-5.png)
+11. Add to try block another dataframe that will store the normalized values and display it in streamlit ![alt text](./images/image-7.png)
+12. Run `streamlit run app.py` to see changes ![alt text](./images/image-6.png)
 13. Create functions to get the transformer to embed our text into vectors and to create a chromadb vector database
-14. Create function to build the vector database using sentence transformers from our dataset ![alt text](image-8.png)
-15. Finish the try block ![alt text](<Screenshot 2026-03-16 at 1.12.02 PM.png>)
+14. Create function to build the vector database using sentence transformers from our dataset ![alt text](./images/image-8.png)
+15. Finish the try block ![alt text](<./images/Screenshot 2026-03-16 at 1.12.02 PM.png>)
 
 ## Improvements to Recommendation Quality (Ideas for Next Iterations)
 
