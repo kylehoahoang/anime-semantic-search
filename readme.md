@@ -27,11 +27,13 @@ May need to create a virtual environment try this:
 * chromadb - an open-source vector database for storing, searching, and managing vector embeddings. Enables fast similarity search and offers a simple API for devs making it well-suited for building and deploying AI-driven applications.
 
 ## Steps
+0. Create an empty folder as the working directory for the project and open it in your IDE of choice.
 1. Create a requirements.txt file that has: streamlit
 pandas
 sentence-transformers
 chromadb
-2. Create a folder called data and place your dataset .csv file into it.
+![alt text](./images/step1.png)
+2. Create a folder called data and place your dataset .csv file into it.![alt text](./images/step2.png)
 3. In app.py import your dependencies ![alt text](./images/image.png)
 4. Create a streamlit page and add a title to the streamlit page.
 5. Create a variable csv_path to store the path to the dataset.
